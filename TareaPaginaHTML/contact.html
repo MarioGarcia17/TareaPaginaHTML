@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motocicletas</title>
+    <style>
+        #enlaces
+        {
+            color: coral;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+
+<body style="margin: 0%; background-color: darkgray;">
+    <header style="background-color: rgb(0, 0, 0);">
+        <img src="C:\Users\mario\Documents\GitHub\TareaPaginaHTML\TareaPaginaHTML\src\img\contact.jpg" width="100%" height="300" alt="Portada">
+        <nav style="text-align:center; background-color: rgb(0, 0, 0);">
+            <span style="font-size: 24px; padding: 12px;"> 
+                <a id="enlaces" href="C:\Users\mario\Documents\GitHub\TareaPaginaHTML\TareaPaginaHTML\Home.html">Inicio</a>
+                <a id="enlaces" href="C:\Users\mario\Documents\GitHub\TareaPaginaHTML\TareaPaginaHTML\history.html">Historia</a>
+                <a id="enlaces" href="C:\Users\mario\Documents\GitHub\TareaPaginaHTML\TareaPaginaHTML\gallery.html">Galeria</a>
+                <a id="enlaces" href="C:\Users\mario\Documents\GitHub\TareaPaginaHTML\TareaPaginaHTML\contact.html">Contacto</a>
+  
+            </span>     
+        </nav>
+    </header>
+        <body>
+
+            <form action= "FormSuccess.html" method="POST">
+                <label for="username">Nombre del usuario:</label> 
+                <input type="text" name= "username" id="username"><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email"> <br>
+                <label for="number">Teléfono</label>
+                <input type="tel" name="tel" id="tel"> <br>              
+                <label for="genre">Género: </label>
+                <label for="male">Masculino</label>
+                <input type="radio" name="male" id="male">
+                <label for="female">Femenino</label>
+                <input type="radio" name="female" id="female">
+                <label for="non_binary">No binario</label>
+                <input type="radio" name="non_binary" id="non_binary">
+                <label for="other">Prefiero no decir: </label>
+                <input type="radio" name="other" id="other"><br>               
+                <label for="comments">Déjanos tus comentarios: </label><br>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea><br>
+                <input type="submit" value="Enviar">
+
+            </form>
+
+        </body>
+
+    </main>
+    <footer style="text-align: center; background-color: gray;">
+        <p>Hecha por Mario García</p>
+    </footer>
+</body>
+
+
+</html>
